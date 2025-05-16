@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+}
+
+main {
+    background-color: beige;
+    margin-left: 240px;
+    margin-right: 240px;
+    height: auto;
+}
+
+nav {
+    border: 2px solid;
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jumbotron {
+    border: 2px solid;
+    background-color: grey;
+    margin-top: 5px;
+    height: auto;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.first-p {
+    margin-top: 20px;
+    color: white;
+    font-size: 2.8rem;
+}
+
+.second-p {
+    color: white;
+    font-weight: bold;
+}
+
+.jumbotron-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.our-plans {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.our-plans h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.plans .card {
+    text-align: center;
+    background-color: lightgray;
+    width: 16vw;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.card-btn {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+}
+
+.in-the-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.in-the-box h1 {
+    font-size: 2rem;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.in-the-box .img {
+    border: 2px solid;
+    background-color: teal;
+    width: 250px;
+    height: 220px;
+}
+
+.in-the-box-p1 {
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+
+.in-the-box-p2 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.in-the-box-p3 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.reviews {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reviews h1 {
+    font-size: 2rem;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.review-body {
+    display: flex;
+}
+
+.review-text {
+    display: flex;
+}
+
+.review-img {
+    border: 2px solid;
+    background-color: teal;
+    height: 40px;
+    width: 40px;
+}
+
+.pre-footer {
+    background-color: gray;
+    border: 2px solid;
+    margin-top: 20px;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.pre-footer-btn {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 160px;
+    height: 38px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+footer h1 {
+    font-size: 2.5rem;
+}
